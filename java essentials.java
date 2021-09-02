@@ -16,3 +16,4 @@ class Main
 	}
 }
 
+//int rollno=10  10 is literal and rollno is identifier any class ,package name method function is identifier
