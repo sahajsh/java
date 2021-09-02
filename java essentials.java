@@ -33,3 +33,22 @@ class Main{
         System.out.println(sum);
     }
 }
+
+
+
+                                                                        Prog 3
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* type conversion and type casting we give 2 integers (2+3) and sum is 5.0 */
+class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        float num1=sc.nextFloat();
+        float num2=sc.nextFloat();
+        float sum=num1+num2;
+        System.out.println(sum);
+    }
+}
