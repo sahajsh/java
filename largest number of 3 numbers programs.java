@@ -49,4 +49,24 @@ class Main
         System.out.println(max);
 	}
 }
+//program-3
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Main
+{
+	public static void main (String[] args)
+	{
+		// your code goes here
+        Scanner in=new Scanner(System.in);
+        System.out.println(in.nextLine().trim().charAt(0));//.trim()  extra space was removed and char at 0 index in.nextLine()-string
+    
+	}
+}
+//print 1st word
+
 
