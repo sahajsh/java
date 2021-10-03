@@ -49,4 +49,5 @@ class Main
 
     }
 }
-
+// for primitives pass by value . 
+// for objects and references pass by value of that reference variable. both refernce variable pointing to same object if we gonna make change in one that original one is going to be changed
