@@ -18,7 +18,7 @@ class Main
     }
 }
 
-[2, 89, 5, 6] is output
+[2, 89, 5, 6] is output// pass by the copy of the value of the reference.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //change value program 
 import java.util.*;
