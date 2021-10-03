@@ -19,3 +19,34 @@ class Main
 }
 
 [2, 89, 5, 6] is output
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//change value program 
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Main
+{
+	public static void main (String[] args) 
+	{
+		int a =87;
+        int b =23;
+        change(a);
+        
+        System.out.println(a);
+        
+
+
+	}
+    static void change(int nums){
+        
+        
+     nums =5;//new object create not modifying thts why it is not change value of a
+     System.out.println("nums value " + nums);// ye value got change nums 
+
+        
+
+    }
+}
+
