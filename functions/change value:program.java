@@ -15,6 +15,7 @@ class Main
 	}
     static void change(int[] nums){
         nums[1] =89;//here we modify the array thts why original array is changed we not creating new object
+	    //if you make the change via this reference variable the same object will changed.
     }
 }
 
