@@ -14,7 +14,7 @@ class Main
 
 	}
     static void change(int[] nums){
-        nums[1] =89;
+        nums[1] =89;//here we modify the array thts why original array is changed we not creating new object
     }
 }
 
@@ -30,11 +30,11 @@ class Main
 {
 	public static void main (String[] args) 
 	{
-		int a =87;
+        int a =87;
         int b =23;
         change(a);
         
-        System.out.println(a);
+        System.out.println(a);//87
         
 
 
@@ -43,7 +43,7 @@ class Main
         
         
      nums =5;//new object create not modifying thts why it is not change value of a
-     System.out.println("nums value " + nums);// ye value got change nums 
+     System.out.println("nums value " + nums);// ye value got change nums 5 
 
         
 
@@ -51,3 +51,4 @@ class Main
 }
 // for primitives pass by value . 
 // for objects and references pass by value of that reference variable. both refernce variable pointing to same object if we gonna make change in one that original one is going to be changed
+// we cannot modify string it is immutable we can create new object of reference variable.
