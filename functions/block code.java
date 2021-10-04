@@ -26,3 +26,31 @@ class Main
     
 }
 
+//same happened with strings------------------>
+// Block code 
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Main
+{
+	public static void main (String[] args) 
+	{
+		int a =87;
+        int b =23;
+        String s="science";
+       {
+            s = "sahaj";
+           System.out.println(s);//it prints modify value
+       }
+        System.out.println(s); //it prints modify value 
+        
+
+
+	}
+    
+}
+
+//sahaj
+//sahaj
