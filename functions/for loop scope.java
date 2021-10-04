@@ -7,8 +7,8 @@ import java.io.*;
 class Main
 {
  public static void main(String[] args){
-     for (int i=0;i<8;i++){
-         System.out.println(i);
+     for (int i=0;i<3;i++){
+         
         int c =56;
       System.out.println(c);//56
      }
