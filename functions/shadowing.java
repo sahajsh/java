@@ -1,5 +1,4 @@
 //shadowing concept->
-//shadowing concept->
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -11,7 +10,22 @@ class Main
     //static is object independent we cannot use object dependent things in object independent things.
 	public static void main (String[] args) {
         System.out.println(x);//9
-        int x =7;//lower level
+        int x =7;//lower level 
+	    //class variable of line 4 is shadowed by this
+	    
+	    
+	    /*
+	    int x;   //shadowing begines when local variable is declared
+            x =40;  //scope will begin when value is initialised.
+	
+	    SOP(x);
+	    
+	    
+	    
+	    
+	    
+	    
+	    */
         System.out.println(x);//7
         fun();
 	}
