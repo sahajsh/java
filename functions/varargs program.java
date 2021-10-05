@@ -56,7 +56,7 @@ class Main
 
 	}
     static void multiple(int a ,int b,String...s){
-        System.out.println(Arrays.toString(s));//[1,2,3,4]
+        System.out.println(Arrays.toString(s));//[2,3,sahaj,dff,eerr]
     }
 }
 
