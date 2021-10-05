@@ -51,4 +51,31 @@ class Main
         return a+b;
     }
 }
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+UNDERSTANDING AMBIGUITY IN VARARGS->
+	
+	
+//Ambiguity error 
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Main
+{
+	public static void main (String[] args) 
+	{
+	    	
+        demo(); //at compile time it won't decide which to run so it gives ambiguity error we're not providing anything to run this.
+
+
+	}
+    static void demo(String...s){
+        System.out.println(Arrays.toString(s));
+    }
+    static void demo(int...a){
+        System.out.println(Arrays.toString(a));
+    }
+}
+
 
