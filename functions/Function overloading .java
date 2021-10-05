@@ -21,7 +21,7 @@ class Main
 
     }
 }
-//two or more  functions with same name or return type  they can exists but  parameters are different.it happens in compile time 
+//two or more  functions with same name or return type  they can exists but no. of arguments are different or type of arguments .it happens in compile time 
 //which decides which function to run called function overloading 
 
 
