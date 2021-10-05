@@ -34,4 +34,5 @@ class Main
         System.out.println(Arrays.toString(var));
     }
 }
+//output- [Sahaj, Shukla, Btech C.S.E]
 
