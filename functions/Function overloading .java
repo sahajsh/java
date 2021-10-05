@@ -26,3 +26,29 @@ class Main
 
 
 //function overriding happens at run time.
+//                                                       FUNCTION OVERLOADING EXAMPLE 2                                        //
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Main
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int ans = sum(2,3);
+        System.out.println(ans);//5
+        
+        int sumof3no = sum(2,5,4);
+        System.out.println(sumof3no);//11
+        
+	}
+    static int  sum(int a,int b,int c){
+      return a+b+c;
+    }
+    static int sum(int a , int b){
+        return a+b;
+    }
+}
+
