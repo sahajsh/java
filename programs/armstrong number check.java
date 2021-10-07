@@ -27,3 +27,42 @@ class Main
 
 //153 input 
 true output 
+
+DISPLAY ARMSTRONG NO. BTW TWO INTERVALS->
+	
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Main
+{
+	public static void main (String[] args) {
+        Scanner sc =new Scanner(System.in);
+        int a =sc.nextInt();
+        int b= sc.nextInt();
+        armstrong(a,b);
+
+
+    }
+    static void armstrong(int a, int b){
+        for(int i=a;i<=b;i++){
+            int sum =0;
+            int n =i;
+            while(n!=0){
+                int rem = n%10;
+                sum =sum +rem *rem *rem;
+                n =n/10;
+            }
+        
+            if(sum == i){
+                System.out.println( i);
+            }
+        }
+
+        
+    }
+
+
+
+}
