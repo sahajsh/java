@@ -1,1 +1,4 @@
-
+//array declaration--------------------
+ int[] arr = new int[4];
+        or 
+ int[] arr ={1,2,3,4,45,5,4};
