@@ -33,3 +33,37 @@ allocation  it is in cpp.
 	2- heap objects are not continuous in JLS we know that. 
 	3-creating memory assigning it happens at run time called dma.
 	heap area are not continuous we know that array objects are also in heap area so it may not be continuous - it totally depends upon JVM(heap stack memory related to jvm)
+// INDEXES IN ARRAY ->>>>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
