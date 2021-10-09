@@ -17,3 +17,4 @@ class Main
 	}
 }
 //int datatype represents wt is the datatype stored inside the array and it should be the same.
+//rons(reference variable) pointing to array object contains type integer in the above question. 
