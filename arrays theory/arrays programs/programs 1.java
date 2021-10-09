@@ -35,7 +35,25 @@ allocation  it is in cpp.
 	heap area are not continuous we know that array objects are also in heap area so it may not be continuous - it totally depends upon JVM(heap stack memory related to jvm)
 // INDEXES IN ARRAY ->>>>
 
-	
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Main
+{
+	public static void main (String[] args) 
+	{
+		
+
+        int[] rollnos = {2,3,4,2,1,23,33};//initialise
+        System.out.println(rollnos[0]);//2
+        rollnos[0]= 99;
+        System.out.println(rollnos[0]);//99
+	}
+}
+
 	
 	
 	
