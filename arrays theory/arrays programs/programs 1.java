@@ -20,3 +20,8 @@ class Main
 //rons(reference variable) pointing to array object contains type integer in the above question. 
 int ros[];//declaration of array . ros is getting defined in stack and it is not pointing to anything
 ros =new int[4];//memory creation happens here pointing to object. object is being created in heap memory.
+ int[]       arr                     =    new int[23];
+datatype    reference variable             (object creation in heap memory it is happening in "RUN TIME" OR EXECUTION TIME and called "dynamic memory allocation").
+(declaration hbappen in 
+"compile time")
+	
