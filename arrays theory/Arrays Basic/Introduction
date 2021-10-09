@@ -2,3 +2,5 @@
  int[] arr = new int[4];
         or 
  int[] arr ={1,2,3,4,45,5,4};
+ reference variable arr is pointing towards array object contains type integer.
+ 
