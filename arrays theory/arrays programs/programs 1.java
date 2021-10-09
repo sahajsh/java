@@ -22,6 +22,14 @@ int ros[];//declaration of array . ros is getting defined in stack and it is not
 ros =new int[4];//memory creation happens here pointing to object. object is being created in heap memory.
  int[]       arr                     =    new int[23];
 datatype  reference variable             (object creation in heap memory it is happening in "RUN TIME" OR EXECUTION TIME and called "dynamic memory allocation").
-(declaration happen in 
+(declaration happen in                    (DMA  - at the run time memory is created)
 "compile time")
-	
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+in c/c++ the block of memory stored continuously it is continuous memory allocation in ram we have cells and cells have address in array all the cells are in continuous memory
+allocation  it is in cpp.
+	in JAVA it is different there is no concept of pointers so we dont get the address or anything it totally depends on JVM whether it is going to be continuous or not.
+	1-array objects are in heap all the other objects are created in heap
+	2- heap objects are not continuous in JLS we know that. 
+	3-creating memory assigning it happens at run time called dma.
+	heap area are not continuous we know that array objects are also in heap area so it is not continuous.
