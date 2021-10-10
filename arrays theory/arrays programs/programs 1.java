@@ -73,6 +73,7 @@ class Main
 	}
 }
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Creating string array 
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -90,10 +91,19 @@ class Main
 }
 
 
+
+we cannot assign null to primitives 
+
+String str =null;
+int arr =null;//wrong we cannot assign it to any primitives 
+null a =null;//wrong
+
+NULL - any reference variable you have by default it will going to hae value of null type. by default value by wt  reference variable  point to 
+we cannot assign it to any primitives (none in python) by default value of reference variables
+	special value which can be assigned to any reference type we can type cast to any type we cannot assign to any primitives.
 	
-	
-	
-	
+	objects nd references stored in heap memory
+	primitives stored in stack memory
 	
 	
 	
