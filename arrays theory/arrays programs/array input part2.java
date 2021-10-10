@@ -62,7 +62,7 @@ class Main
          for(int x: arr){
              System.out.println(x);
          }
-		System.out.println(arr[4]);//it gives error
+		System.out.println(arr[4]);//it gives error index out of bound
     }
 }// 234
 // 234 is output
