@@ -62,6 +62,7 @@ class Main
          for(int x: arr){
              System.out.println(x);
          }
+		System.out.println(arr[4]);//it gives error
     }
 }// 234
 // 234 is output
