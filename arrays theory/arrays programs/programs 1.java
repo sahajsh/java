@@ -72,10 +72,24 @@ class Main
        
 	}
 }
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 
 
-	
-	
+class Main
+{
+	public static void main (String[] args) 
+	{
+		
+  String[] var = new String[4];
+  System.out.println(var[0]);//null
+       
+	}
+}
+
+
 	
 	
 	
