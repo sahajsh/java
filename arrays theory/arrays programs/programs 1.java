@@ -54,7 +54,7 @@ class Main
 	}
 }
 
-	
+	//new is used to create an object in heap memory happens in dynamic memory allocation at run time
 	
 	
 	
