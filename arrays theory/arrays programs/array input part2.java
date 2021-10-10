@@ -67,5 +67,27 @@ class Main
 }// 234
 // 234 is output
 
+--------------------------------------------------------other way to print using Arrays.toString() ---------------------------------------------------------
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Main
+{
+	public static void main (String[] args)
+	{
+	Scanner sc = new Scanner(System.in);
+        int[] arr = new int[4];
+        for(int i =0;i<4;i++){
+            arr[i] = sc.nextInt();
+        }
+        
+        System.out.println(Arrays.toString(arr));
+
+	}
+}// output -->[1, 2, 3, 4]
+
 
 
