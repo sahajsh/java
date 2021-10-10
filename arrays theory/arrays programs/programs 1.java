@@ -56,7 +56,24 @@ class Main
 
 	//new is used to create an object in heap memory happens in dynamic memory allocation at run time
 	
-	
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Main
+{
+	public static void main (String[] args) 
+	{
+		
+
+        int[] rollnos = new int[3];
+        System.out.println(rollnos[0]);// by default it display value 0
+       
+	}
+}
+
+
 	
 	
 	
