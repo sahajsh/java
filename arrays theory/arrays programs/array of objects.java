@@ -3,7 +3,6 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-//we deal with string
 class Main
 {
 	public static void main (String[] args) 
@@ -15,7 +14,13 @@ class Main
             str[i] = in.next();
         }
         System.out.println(Arrays.toString(str));
+        str[0]="miti";
+        System.out.println(Arrays.toString(str));
 	}    
 }
-output - 
+
+Output
 [sahaj, shukla, amazon]
+[miti, shukla, amazon]
+
+input
