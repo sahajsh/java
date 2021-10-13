@@ -10,9 +10,9 @@ class Main
         int[][] arr = new int[3][];
         //or
         int[][] arr2 = {
-                       {2,3,4},
-                       {3,2},
-                       {4,3}
+                       {2,3,4},//0 th index
+                       {3,2},//1st index
+                       {4,3}//2nd index
 
                        };
 		
