@@ -90,6 +90,7 @@ class Main
         System.out.println(list.contains(8));//true
         System.out.println(list);//[2, 5, 4, 8, 9]
         list.set(0,990);
+	list.remove(2);
 	
     System.out.println(list);[990, 5, 4, 8, 9]
 }
