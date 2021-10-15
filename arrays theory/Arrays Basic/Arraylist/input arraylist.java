@@ -16,7 +16,7 @@ class Main
             
                 System.out.println(list);//list index will not work here get item at any index// [1, 2, 3, 4, 5]
             for(int i =0;i<5;i++){
-                System.out.print(list.get(i));// 1 2 3 4 5 
+                System.out.print(list.get(i));// 1 2 3 4 5 //get item at any index
             }
         
           
