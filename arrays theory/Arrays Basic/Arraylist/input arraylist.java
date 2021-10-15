@@ -69,4 +69,30 @@ class Main
     System.out.println(list);
 }
 }
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Main
+{
+	public static void main (String[] args) 
+	{
+		
+        ArrayList<Integer> list = new ArrayList<>(4);
+        list.add(2);
+        list.add(5);
+        list.add(4);
+        list.add(8);
+        list.add(9);
+        System.out.println(list.contains(8));//true
+        System.out.println(list);//[2, 5, 4, 8, 9]
+        list.set(0,990);
+	
+    System.out.println(list);[990, 5, 4, 8, 9]
+}
+}
+
 
