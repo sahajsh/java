@@ -23,3 +23,26 @@ class Main
 	}
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Main
+{
+	public static void main (String[] args) 
+	{
+		// your code goes here
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> list = new ArrayList<>(4);
+        for(int i =0; i< 4;i++){
+            list.add(sc.nextInt());
+        }
+        System.out.println(list);
+	}
+
+}
+
+[1, 2, 3, 4] is output
