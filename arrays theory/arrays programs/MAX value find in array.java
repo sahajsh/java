@@ -23,4 +23,40 @@ class Main
       return max_value;
     }
 }
+//edge cases when array is being null ->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Main
+{
+	public static void main (String[] args) 
+	{
+	   int[] arr = {1,2,77,466};
+      System.out.println(maxval(arr,1,3));
+	}
+   
+    static int maxval(int[] arr,int start,int end){
+        int max_value = arr[0];
+        if(arr.length==0){
+            return -1;
+        }
+         if(end>start){
+        return -1;
+    }
+    if(arr==null){
+        return -1;
+        }
+        for(int i =start;i<=end;i++){
+            if(arr[i] > max_value){
+                max_value= arr[i];
+            }
+        }
+        return max_value;
+
+    }
+}
+
 
