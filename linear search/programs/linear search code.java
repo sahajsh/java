@@ -10,7 +10,7 @@ class Main
 	// we are going to search in an array : if item is found then we gonna written index 
         //otherwise if element is not found we gonna return -1
         int[] nums ={1,2,3,4,5};
-        int target =6;
+        int target =5;//output is 4 
         int ans = linearSearch(nums, target);
         System.out.println(ans);
 	}
@@ -31,4 +31,5 @@ class Main
 
   }
 }
+output is 4 
 
