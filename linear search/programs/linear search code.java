@@ -6,7 +6,7 @@ import java.io.*;
 
 class Main
 {
-	public static void main (String[] args) throws java.lang.Exception
+	public static void main (String[] args) 
 	{
 	// we are going to search in an array : if item is found then we gonna written index 
         //otherwise if element is not found we gonna return -1
