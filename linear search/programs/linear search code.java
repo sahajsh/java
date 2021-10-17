@@ -29,15 +29,7 @@ class Main
       }
 // this line will execute if none of the return statements is executed so target is not found . element doesn't exist it return -1
    return -1;
-    
-
 
   }
-
-
-
-
-
-
 }
 
