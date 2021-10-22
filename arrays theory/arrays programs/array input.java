@@ -17,7 +17,7 @@ class Main
    arr[3]=4;
    arr[4]=5;
    //[1,2,3,4,5]
-       System.out.println(arr[4]);//4
+       System.out.println(arr[4]);//5
 	}
 }
 
